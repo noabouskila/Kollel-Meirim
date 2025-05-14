@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "./components/header";
 import { Footer } from "./components/footer";
 
+import { playfair } from "./lib/font/playfair";
 
 
 
@@ -28,9 +29,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased   `}
+        className={`${playfair.className} antialiased `}
+        // ${geistSans.variable} ${geistMono.variable}
       >
         <Header />
 

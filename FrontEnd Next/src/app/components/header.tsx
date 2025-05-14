@@ -7,18 +7,19 @@ export function Header() {
   const lang = pathname.split('/')[1] || 'fr';
 
   return (
-    <header className="fixed w-full   shadow p-6 bg-blue-100">
-      <nav className="flex justify-between items-center">
-        <Link href={`/${lang}`} className="font-bold text-xl">
-          Kollel Meïirim
-        </Link>
-        <ul className="flex gap-4">
-          <li><Link href={`/${lang}/francais/kollel`}>Le Kollel</Link></li>
-          <li><Link href={`/${lang}/actions`}>Actions</Link></li>
-          <li><Link href={`/${lang}/don`}>Faire un don</Link></li>
-          <li><Link href={`/${lang}/contact`}>Contact</Link></li>
-        </ul>
-      </nav>
-    </header>
+    <header className="fixed top-0 left-0 w-full z-50 shadow p-6 bg-blue-100">
+    <nav className="flex justify-between items-center">
+      <Link href={`/${lang}`} className="font-bold text-xl">
+        Kollel Meïirim
+      </Link>
+      <ul className="flex gap-4">
+        <li><Link href={`/${lang}/francais/kollel`}>Le Kollel</Link></li>
+        <li><Link href={`/${lang}/actions`}>Actions</Link></li>
+        <li><Link href={`/${lang}/don`}>Faire un don</Link></li>
+        <li><Link href={`/${lang}/contact`}>Contact</Link></li>
+      </ul>
+    </nav>
+  </header>
+  
   );
 }
