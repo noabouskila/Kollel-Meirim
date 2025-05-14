@@ -7,7 +7,7 @@ export function Header() {
   const lang = pathname.split('/')[1] || 'fr';
 
   return (
-    <header className="bg-white shadow p-4">
+    <header className="fixed w-full   shadow p-6 bg-blue-100">
       <nav className="flex justify-between items-center">
         <Link href={`/${lang}`} className="font-bold text-xl">
           Kollel Meïirim
