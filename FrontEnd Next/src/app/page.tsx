@@ -6,14 +6,14 @@ import Hero from './ui/hero';
 
 export default function Home() {
   return (
-    <main className="bg-sky-50 min-h-screen ">
+    <main className="min-h-screen bg-sky-50 ">
 
       <Hero />
     
 
-      <div id="definition"  className=" text-center px-6 py-16 md:px-12 lg:px-24 max-w-screen-xl mx-auto space-y-6  text-gray-800">
+      <div id="definition"  className="max-w-screen-xl px-6 py-16 mx-auto space-y-6 text-center text-gray-800  md:px-12 lg:px-24">
 
-        <h2 className=" text-blue-900 text-2xl">
+        <h2 className="text-2xl text-blue-900 ">
         Un <strong className="italic">Nouveau Kollel francophone  </strong> de haut niveau  <br/> s’installe à Kyriat Yovel, où de jeunes Avré’hims
         étudient chaque jour  <br/> sous la direction de Rabbanim et Talmidé ‘Ha’hamim,   <br/> autour de
         sujets en profondeur : <strong>Iyoun</strong> et <strong>Hala’ha</strong>.
@@ -24,7 +24,7 @@ export default function Home() {
 
       <CarouselImage  /> 
 
-      <section className="px-6 py-14 md:px-12 lg:px-24 max-w-screen-xl mx-auto space-y-6 text-xl text-blue-900 text-center">
+      <section className="px-6 mx-auto space-y-6 text-xl text-center text-blue-900 py-14 md:px-12 lg:px-24">
       <h3  className="text-3xl"> Mais Le Kollel Meïrim, c’est aussi <strong>une mission</strong> : <br/> <br/></h3>
         <p>
           Faire rayonner la Torah au-delà des murs du Collel !<br/><br/>

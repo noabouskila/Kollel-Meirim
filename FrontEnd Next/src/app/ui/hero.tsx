@@ -29,7 +29,7 @@ export default function Hero() {
 
 
           {/* Image à droite (desktop uniquement) */}
-          <div className="hidden md:block w-[40%] md:w-[60%]  mt-5 md:mt-0 lg:ml-50">
+          <div className="hidden md:block w-[40%] md:w-[40%]  mt-5 md:mt-0 lg:ml-40">
             <Image
               src="/avreh.svg"
               alt="Avreh au Kollel"
