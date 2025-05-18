@@ -5,6 +5,7 @@ import { Header } from "./components/header";
 import { Footer } from "./components/footer";
 
 import { playfair } from "./lib/font/playfair";
+import SmoothScrollProvider from "./components/SmoothScrollProvider";
 
 
 
@@ -35,9 +36,10 @@ export default function RootLayout({
         // ${geistSans.variable} ${geistMono.variable}
       >
         <Header />
-
-         
+        <SmoothScrollProvider>
           {children}
+        </SmoothScrollProvider>
+         
        
 
          <Footer />
